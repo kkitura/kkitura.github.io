@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+/* File name: layout1.ccs
+Purpose: Layout for the Home Page
+Date: 11/12/2021
+Author: KT
+*/
+body {
+  width: 100%;
+  height: 1500px;
+  margin: 0;
+}
+
+
+
+/* -------------Main Layout/Containers------------------*/
+.welcome {
+  display: grid;
+  grid-template-rows: 1fr;
+
+  height: 150px;
+
+  align-items: center;
+  text-align: center;
+}
+.who {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: inherit;
+  height: 200px;
+}
+
+.maincontainer {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 0;
+
+  height: 1190px;
+
+
+  grid-template-areas:   "nav    main    Expectations"
+                         "nav    main    about"
+                         "nav    main    about";
+}
+
+
+
+/*--------------Navigation Bar--------------------*/
+
+.nav {
+  grid-row: 1 / 4;
+  background-color: rgb(47,79,79); /*Alt. color: rgb(112,128,144)*/
+
+}
+
+.nav > ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav > ul > li {
+  text-align: center;
+}
+
+.nav a {
+  display: block;
+  text-decoration: none;
+  padding: 25px;
+}
+
+.nav a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.nav a:active {
+  background-color: #04AA6D;;
+  color: white;
+}
+
+.nav .activelink {
+  background-color: #04AA6D;;
+  color: white;
+}
+
+
+
+/*-----------------The .main content-------------------*/
+
+
+.main {
+  grid-row: 1 / 4;
+  padding-left: 10px;
+  width: auto;
+
+}
+
+
+/*////////////////Footer//////////////////*/
+
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 110px;
+}
+
+.leftsection {
+  grid-column: 1 / 2;
+}
+
+.middlesection {
+  grid-column: 2 / 3;
+}
+
+.rightsection  {
+  grid-column: 3 / 4;
+}

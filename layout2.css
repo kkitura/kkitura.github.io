@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+/* File name: layout2.ccs
+Purpose: Layout for the Artwork Page
+Date: 11/12/2021
+Author: KT
+*/
+
+body {
+  width: 100%;
+  height: 1000px;
+  margin: 0;
+}
+
+.banner {
+  display: block;
+  float: left;
+  width: 100%;
+  height: 23px;
+
+  margin: 0;
+  padding: 10px;
+
+
+  text-align: center;
+  align-content: center;
+}
+
+/* -------------Main Layout/Containers------------------*/
+
+.maincontainer {
+  clear: both;
+  display: grid;
+  grid-template-columns: 0.4fr 2fr;
+  height: 700px;
+  width: 100%;
+
+
+}
+
+
+/*--------------Navigation Bar--------------------*/
+
+.nav {
+  background-color: rgb(47,79,79); /*Alt. color: rgb(112,128,144)*/
+  border-width: 0 15px 0 0;
+  border-style: solid;
+  border-color: rgb(47,79,79);
+}
+
+.nav > ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav > ul > li {
+  text-align: center;
+}
+
+.nav a {
+  display: block;
+  text-decoration: none;
+  padding: 25px;
+}
+
+.nav a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.nav a:active {
+  background-color: #04AA6D;;
+  color: white;
+}
+
+.nav .activelink {
+  background-color: #04AA6D;;
+  color: white;
+}
+
+
+.gallerycontainer {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "title title"
+                       "card  card"
+}
+
+.title {
+  grid-column: 1 / 3;
+  height: 125px;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex: 1 1 200px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+  border: 1px solid rgb(81, 81, 81);
+}
+
+.card header {
+
+}
+
+.card img {
+
+}
+
+.card footer {
+
+}
+/*
+.images h1 {
+  display: block;
+  width: 100%;
+  height: 100px;
+}
+
+
+
+.images  {
+  clear: left;
+  float: left;
+  display: block;
+  width: 500px;
+  height: 150px;
+  border-style: solid;
+  border-width: 5px 5px 5px 5px;
+  border-color: black;
+
+}
+
+.images header {
+  width: 500px;
+  border-style: solid;
+  border-width: 5px 5px 5px 5px;
+  border-color: black;
+
+}
+
+.images img {
+
+}
+
+.images footer {
+
+}
+*/
