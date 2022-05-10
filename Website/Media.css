@@ -1,0 +1,160 @@
+@media only screen and (min-width: 480px) and (max-width: 1533px) {
+    html {
+        width: 337px;
+        height: 667px;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    div#right.text_bubble {
+        left: 3%;
+        width: 90%;
+        height: 45%;
+        
+    }
+
+    div#left.text_bubble {
+        top: 51%;
+        left: 3%;
+        width: 90%;
+        height: 40%;
+    }
+
+    div#left.triangle {
+        left: 0;
+        top: 51%;
+        border-right: 45.556px solid #53e891ff;
+    }
+
+    div#right.triangle {
+        left: 76%;
+        border-left: 66.556px solid #50aaffff;
+
+    }
+
+    div#r.text {
+        font-size: 0.7em;
+        left: 9%;
+
+    }
+
+    h2#subhead1 {
+        font-size: 1.2em;
+        line-height: 1.8em;
+        width: 88%;
+        letter-spacing: 2px;
+    }
+
+    div#l.text {
+        font-size: 1.2em;
+    }
+
+    a.links {
+        font-size: 1.2em;
+    }
+
+    footer {
+        bottom: 0;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1999px)/*Wider Display*/
+{
+    html {
+        width: 100%;
+        height: 1120px;
+    }
+
+    div#right.text_bubble {
+        left: 51%;
+        width: 43%;
+        height: 60%;
+        
+    }
+
+    div#left.text_bubble {
+        top: 62%;
+        left: 3.45%;
+        width: 31%;
+        height: 40%;
+    }
+
+    div#left.triangle {
+        top: 62%;
+    }
+
+    div#right.triangle {
+        left: 88%;
+        border-left: 171.556px solid #50aaffff;
+
+    }
+    
+}
+
+@media only screen and (min-width: 1900px) /*Wider Display*/
+{
+    html {
+        width: 100%;
+        height: 1120px;
+    }
+
+    div#right.text_bubble {
+        left: 51%;
+        width: 43%;
+        height: 60%;
+        
+    }
+
+    div#left.text_bubble {
+        top: 62%;
+        left: 3.45%;
+        width: 31%;
+        height: 40%;
+    }
+
+    div#left.triangle {
+        top: 62%;
+    }
+
+    div#right.triangle {
+        left: 88%;
+        border-left: 171.556px solid #50aaffff;
+
+    }
+
+    div#r.text {
+        top: 6%;
+        left: 7%;
+        font-size: 1.57em;
+    }
+
+    h2#subhead1 {
+        font-size: 1.8em;
+        line-height: 1.26em;
+        letter-spacing: 3px;
+        width: 93%;
+    }
+
+
+    div#l.text {
+        top: 3%;
+        left: 10%;
+        font-size: 1.8em;
+    
+    }
+
+    a.links {
+        width: 100%;
+        font-size: 1.40em;
+        line-height: 1.56em;
+        
+    }
+
+}
+
+
