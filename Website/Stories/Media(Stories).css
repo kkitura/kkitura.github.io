@@ -1,0 +1,98 @@
+@media only screen and (min-width: 360px) and (max-width: 1500px) {
+    
+    /***** General Layout Style for Mobile *****/
+    html {
+        width: 100%;
+        height: 2600px;
+        
+       
+    }
+
+    body {
+        width: 100%;
+        height: 2600px;
+    }
+
+
+    /***** Main element Layout Styles *****/
+    
+    /* Link bar font resize and position */
+    div#link-bar {
+        width: 100%;
+        height: 2%;
+    }
+    
+    a.pages {
+        width: 14%;
+        font-size: 1em;
+        padding: 2.5%  2%;
+    }
+
+    a#current.pages {
+        font-size: 0.5em;
+        padding-top: 2.5%;
+        padding-left: 0;
+        padding-right: 1%;
+        width: 39%;
+        font-size: 1em;
+    }
+
+
+    /***** Subsection Resizing ****/
+    div#subsection {
+        width: 95%;
+    }
+
+    /**** Main Section ****/
+    
+    /* Summary */
+    div#summary {
+        width: 90%;
+        height: 11%;
+    }
+    div#summary h3{
+        font-size: 0.8em;
+
+    }
+
+    /* Main Section's Grid Resize */
+
+
+
+    /* Stories */
+    div#story1.stories {
+        grid-column: 1 / 7;
+    }
+
+
+    /* Footer Block */
+    div.footer-finish {
+        width: 95%;
+        height: 16%;
+        margin: auto;
+    }
+
+
+    /* Tags */
+    div.Separate-block {
+        height: 34%;
+    }
+
+    /* Maintenance Styles */
+    div#Tags p {
+        line-height: 0.9em;
+        margin-block-start: 0.2em;
+    }
+
+    /* Transition Styles */
+    div#story1.stories:hover {
+        width: 105%;
+        height: 102%;
+        margin-left: -2%;
+        
+    }
+    
+    div#story1.stories {
+        transition: width 1s, height 1s, margin-left 1s;
+    }
+}

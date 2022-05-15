@@ -1,0 +1,36 @@
+/* Links Transitions */
+
+a.pages {
+    transition: background-color ease 0.45s;
+}
+
+/* Stories Transitions */
+
+div#story1.stories:hover {
+    width: 110%;
+    height: 110%;
+    margin-left: -2%;
+}
+
+div#story1.stories {
+    transition: width 1s, height 1s, margin-left 1s;
+}
+
+/* Front Transition styles */
+
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+* {
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+}
